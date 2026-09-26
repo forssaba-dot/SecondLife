@@ -2,57 +2,69 @@
 
 **Don't throw it away — give it a second life!**
 
-SecondLife is a simple desktop application that helps people find creative ways to reuse everyday items before throwing them away.
+SecondLife is an AI-powered web app that helps people discover creative and practical ways to reuse unwanted household items instead of throwing them away.
 
 ## 🌱 The Problem
 
-Many reusable household items are thrown away because people don't know what else they can do with them.
+Many reusable household items end up in the trash simply because people don't know what else they can do with them.
 
-SecondLife makes reuse simple: type in an item you have, and the app suggests a practical way to give it a second life.
+SecondLife makes reuse easy: enter an unwanted item and AI generates a practical idea for giving it a second life.
 
 ## ✨ Features
 
-- Enter common household waste or reusable items
-- Get a creative reuse idea instantly
-- See the materials you need
-- Follow simple step-by-step instructions
-- View difficulty level and estimated time
-- Learn the environmental impact of reusing the item
-- Helpful guidance when an item is not recognized
-- Press Enter or click "Find a Second Life"
+- 🤖 AI-powered reuse and upcycling suggestions
+- 🌎 Works with many different household items
+- 🛠️ Simple step-by-step instructions
+- 🌱 Explains the environmental benefit
+- ⌨️ Press Enter or click **Find a Second Life**
+- 🌐 Simple browser-based interface
+- 💡 Generates ideas dynamically instead of relying only on a fixed list
 
-## ♻️ Example Ideas
+## 🧠 How It Works
 
-- Plastic bottle → Self-Watering Planter
-- Toilet paper roll → Cardboard Roll Phone Stand
-- Glass jar → Reused Glass Jar Organizer
-- Milk carton → Bird Feeder
-- Cardboard box → Desk Organizer
-- Egg carton → Mini Organizer
+1. Enter an unwanted item, such as a plastic bottle, broken umbrella, old keyboard, or milk carton.
+2. SecondLife sends the item to an AI model.
+3. AI creates a practical reuse or upcycling idea.
+4. The app displays simple instructions and the environmental benefit.
 
 ## 🛠️ Built With
 
 - Python
-- Tkinter
+- Streamlit
+- OpenAI API
 - Visual Studio Code
+- Git & GitHub
 
 ## ▶️ How to Run
 
 1. Make sure Python is installed.
-2. Download or clone this project.
-3. Open the project folder.
-4. Run:
+2. Clone or download this project.
+3. Install the required packages:
 
-python app.py
+   `pip install streamlit openai`
 
-5. Type an item and click **Find a Second Life** or press **Enter**.
+4. Set your `OPENAI_API_KEY` environment variable.
+5. Run:
 
-## 💡 Future Improvements
+   `streamlit run web_app.py`
 
-Future versions could use AI to generate reuse ideas for almost any object, recognize items from photos, and provide more personalized recycling and upcycling suggestions.
+6. Open the Streamlit page in your browser.
 
-## 🌎 Our Goal
+## 💡 Example
+
+**Input:** Broken umbrella
+
+SecondLife can generate a new use for the umbrella, provide simple steps for creating it, and explain how reusing it helps reduce waste.
+
+## 🚀 Future Improvements
+
+- Add photo recognition so users can take a picture of an unwanted item
+- Generate multiple reuse ideas for each item
+- Allow users to save their favorite ideas
+- Add community sharing of creative upcycling projects
+
+## 🌍 Our Goal
 
 SecondLife encourages people to think before throwing something away.
 
-**Reuse first. Waste less. Give it a SecondLife. ♻️**
+**Small reuse decisions can reduce waste and give everyday objects a second life. ♻️**
