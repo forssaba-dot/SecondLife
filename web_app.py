@@ -23,7 +23,7 @@ if find_button:
     if not item.strip():
         st.warning("Please enter an item first.")
     else:
-        client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+        client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
         with st.spinner("Finding a second life..."):
             response = client.responses.create(
