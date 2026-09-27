@@ -1,4 +1,8 @@
 # ♻️ SecondLife
+🌐 **Live Demo:** https://secondlife-reuse-ai.streamlit.app/
+
+**Try SecondLife now — enter any unwanted household item and let AI give it a second life!**
+
 
 **Don't throw it away — give it a second life!**
 
